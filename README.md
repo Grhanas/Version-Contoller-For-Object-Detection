@@ -11,7 +11,7 @@ This project provides a lightweight and automated versioning system for image da
 
 - Automatic version folder creation (`v1`, `v2`, `v3`, ...)
 - Adds new images to the central `images/` folder (with duplication check)
-- Moves JSON annotation files into the version folder
+- Moves JSON or .txt annotation files into the version folder
 - Stores `metadata.csv` alongside each version
 - Updates `manifest.csv` with version info and timestamp
 - Cleans up the `add_version/` folder after successful processing
